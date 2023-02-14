@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <title>Homepage</title>
+    <link rel = "stylesheet" href = "../static/navbar.css"/>
+    <link rel = "stylesheet" href = "../static//homepage.css"/>
+</head> 
+
+<!--Menu Boven-->
+<nav>
+    <li><a href="{{url_for('homepage')}}">Home</a></li>
+    <li><a href="{{url_for('create_class')}}">Create Class</a></li>
+    <li><a href="{{url_for('register_presence')}}">Register Presence</a></li>
+    <li><a href="{{url_for('see_presence')}}">See Presence</a></li>
+    <li><a href="{{url_for('assign_course')}}">Assign Course</a></li>
+</nav>
+
+<h1>{{contents}}</h1>
+
+</body>
+</html>

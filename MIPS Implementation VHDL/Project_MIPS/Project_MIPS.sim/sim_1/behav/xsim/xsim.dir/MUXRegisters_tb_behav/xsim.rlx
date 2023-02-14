@@ -1,0 +1,12 @@
+
+{ 
+    crc :  8467822552542477614  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 69d49c8143ca4da8b22e4a0c58e5c4d2 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot MUXRegisters_tb_behav xil_defaultlib.MUXRegisters_tb" , 
+    buildDate : "Jun 10 2021" , 
+    buildTime : "19:45:28" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/MUXRegisters_tb_behav/xsimk\"   \"xsim.dir/MUXRegisters_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/MUXRegisters_tb_behav/obj/xsim_1.lnx64.o\" -L\"/tools/Xilinx/Vivado/2021.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

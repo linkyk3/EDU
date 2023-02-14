@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <title>Start Course</title>
+    <link rel="stylesheet" href="../static/navbar.css"/>
+    <link rel="stylesheet" href="../static/create_class.css"/>
+</head>
+
+<!--Menu Boven-->
+<nav>
+    <li><a href="{{url_for('homepage')}}">Home</a></li>
+    <li><a href="{{url_for('create_class')}}">Create Class</a></li>
+    <li><a href="{{url_for('register_presence')}}">Register Presence</a></li>
+    <li><a href="{{url_for('see_presence')}}">See Presence</a></li>
+    <li><a href="{{url_for('assign_course')}}">Assign Course</a></li>
+</nav>
+
+<div class="middleBlock">
+    <h1 style="text-align: center;">Create Class</h1>
+    <form method="POST" action="/create_class">
+      <div class="container">
+        <label for="course_name"><b>Course Name</b></label>
+        <input type="text" id = "course" placeholder="Enter Course Name" name="course_name" required>
+
+        <label for="class_name"><b>Class Name</b></label>
+        <input type="text" id = "class" placeholder="Enter Class Name" name="class_name" required>
+                
+        <button type="submit" value="pressed" name = "create_class_button">Create Class</button>
+
+        <hr>
+
+        <label for="presence_code"><b>Presence Code:</b></label>
+
+        <code>{{contents}}</code>
+      </div>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Main_Top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Main_Top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,233.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="236"></NameColumnWidth>
+      <ValueColumnWidth column_width="197"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject type="logic" fp_name="/Main_Top_tb/clk_s">
+      <obj_property name="ElementShortName">clk_s</obj_property>
+      <obj_property name="ObjectShortName">clk_s</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/instr_s">
+      <obj_property name="ElementShortName">instr_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_s[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/JumpReg_s">
+      <obj_property name="ElementShortName">JumpReg_s</obj_property>
+      <obj_property name="ObjectShortName">JumpReg_s</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/Jump_s">
+      <obj_property name="ElementShortName">Jump_s</obj_property>
+      <obj_property name="ObjectShortName">Jump_s</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/Branch_s">
+      <obj_property name="ElementShortName">Branch_s</obj_property>
+      <obj_property name="ObjectShortName">Branch_s</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/Zero_s">
+      <obj_property name="ElementShortName">Zero_s</obj_property>
+      <obj_property name="ObjectShortName">Zero_s</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/readData1_s">
+      <obj_property name="ElementShortName">readData1_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1_s[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/instr_SE_s">
+      <obj_property name="ElementShortName">instr_SE_s[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_SE_s[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/Main_Top_tb/clkPeriod_s">
+      <obj_property name="ElementShortName">clkPeriod_s</obj_property>
+      <obj_property name="ObjectShortName">clkPeriod_s</obj_property>
+      <obj_property name="CustomSignalColor">#00FF7F</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/RegDst_o">
+      <obj_property name="ElementShortName">RegDst_o</obj_property>
+      <obj_property name="ObjectShortName">RegDst_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/RegDst_o">
+      <obj_property name="ElementShortName">RegDst_o</obj_property>
+      <obj_property name="ObjectShortName">RegDst_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/Jump_o">
+      <obj_property name="ElementShortName">Jump_o</obj_property>
+      <obj_property name="ObjectShortName">Jump_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/JumpReg_o">
+      <obj_property name="ElementShortName">JumpReg_o</obj_property>
+      <obj_property name="ObjectShortName">JumpReg_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/Branch_o">
+      <obj_property name="ElementShortName">Branch_o</obj_property>
+      <obj_property name="ObjectShortName">Branch_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/MemRead_o">
+      <obj_property name="ElementShortName">MemRead_o</obj_property>
+      <obj_property name="ObjectShortName">MemRead_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/MemToReg_o">
+      <obj_property name="ElementShortName">MemToReg_o</obj_property>
+      <obj_property name="ObjectShortName">MemToReg_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/Ctrl/ALUOp_o">
+      <obj_property name="ElementShortName">ALUOp_o[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp_o[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/MemWrite_o">
+      <obj_property name="ElementShortName">MemWrite_o</obj_property>
+      <obj_property name="ObjectShortName">MemWrite_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/ALUSrc_o">
+      <obj_property name="ElementShortName">ALUSrc_o</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/Ctrl/RegWrite_o">
+      <obj_property name="ElementShortName">RegWrite_o</obj_property>
+      <obj_property name="ObjectShortName">RegWrite_o</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers">
+      <obj_property name="ElementShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[0:31][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[0]">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[1]">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[2]">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[3]">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[4]">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[5]">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[6]">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[7]">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[8]">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[9]">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[10]">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[11]">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[12]">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[13]">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[14]">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[15]">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[16]">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[17]">
+         <obj_property name="ElementShortName">[17][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[17][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[18]">
+         <obj_property name="ElementShortName">[18][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[18][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[19]">
+         <obj_property name="ElementShortName">[19][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[19][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[20]">
+         <obj_property name="ElementShortName">[20][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[20][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[21]">
+         <obj_property name="ElementShortName">[21][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[21][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[22]">
+         <obj_property name="ElementShortName">[22][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[22][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[23]">
+         <obj_property name="ElementShortName">[23][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[23][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[24]">
+         <obj_property name="ElementShortName">[24][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[24][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[25]">
+         <obj_property name="ElementShortName">[25][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[25][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[26]">
+         <obj_property name="ElementShortName">[26][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[26][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[27]">
+         <obj_property name="ElementShortName">[27][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[27][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[28]">
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[29]">
+         <obj_property name="ElementShortName">[29][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[29][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[30]">
+         <obj_property name="ElementShortName">[30][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/registers[31]">
+         <obj_property name="ElementShortName">[31][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/readData1_RegT_o">
+      <obj_property name="ElementShortName">readData1_RegT_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1_RegT_o[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/readData2_RegT_o">
+      <obj_property name="ElementShortName">readData2_RegT_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2_RegT_o[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/readReg1_i">
+      <obj_property name="ElementShortName">readReg1_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readReg1_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/readReg2_i">
+      <obj_property name="ElementShortName">readReg2_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">readReg2_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/Regs/writeReg_i">
+      <obj_property name="ElementShortName">writeReg_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">writeReg_i[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/SignExt/output_SE_o">
+      <obj_property name="ElementShortName">output_SE_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">output_SE_o[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/ALUTop/ALUComp/input1_i">
+      <obj_property name="ElementShortName">input1_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input1_i[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/ALUTop/ALUComp/input2_i">
+      <obj_property name="ElementShortName">input2_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">input2_i[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/ALUCtrl/instr_ALUC_i">
+      <obj_property name="ElementShortName">instr_ALUC_i[5:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_ALUC_i[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/ALUCtrl/ALUControl_o">
+      <obj_property name="ElementShortName">ALUControl_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl_o[3:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/Main_Top_tb/UUT/ALUCtrl/ALUShiftLogic_o">
+      <obj_property name="ElementShortName">ALUShiftLogic_o</obj_property>
+      <obj_property name="ObjectShortName">ALUShiftLogic_o</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/ALUTop/ALUResult_ALU_o">
+      <obj_property name="ElementShortName">ALUResult_ALU_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult_ALU_o[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory">
+      <obj_property name="ElementShortName">memory[0:16][31:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:16][31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[0]">
+         <obj_property name="ElementShortName">[0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[1]">
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[2]">
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[3]">
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[4]">
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[5]">
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[6]">
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[7]">
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[8]">
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[9]">
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[10]">
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[11]">
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[12]">
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[13]">
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[14]">
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[15]">
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/DataMem/memory[16]">
+         <obj_property name="ElementShortName">[16][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/DataMemTop/readWriteData_DM_o">
+      <obj_property name="ElementShortName">readWriteData_DM_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readWriteData_DM_o[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/Main_Top_tb/UUT/RegTop/writeData_RegT_i">
+      <obj_property name="ElementShortName">writeData_RegT_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData_RegT_i[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

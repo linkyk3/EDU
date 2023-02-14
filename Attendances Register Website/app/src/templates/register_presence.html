@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <title>Register Presence</title>
+    <link rel = "stylesheet" href = "../static/navbar.css"/>
+    <link rel = "stylesheet" href = "../static/register_presence.css"/>
+</head> 
+
+<!--Menu Boven-->
+<nav>
+    <li><a href="{{url_for('homepage')}}">Home</a></li>
+    <li><a href="{{url_for('create_class')}}">Create Class</a></li>
+    <li><a href="{{url_for('register_presence')}}">Register Presence</a></li>
+    <li><a href="{{url_for('see_presence')}}">See Presence</a></li>
+    <li><a href="{{url_for('assign_course')}}">Assign Course</a></li>
+</nav>
+
+<div class="middleBlock">
+    <h1 style="text-align: center;">Register Presence</h1>
+    <form method="POST" action="/register_presence">
+      <div class="container">
+        <label for="presence_code"><b>Unique Presence Code</b></label>
+        <input type="text" id = "presence" placeholder="Enter Presence Code" name="presence_code" required>
+                
+        <button type="submit" value="pressed" name = "register_presence_button">Register Presence</button>
+
+        <hr>
+
+        <!--Contents = Presence Registered!-->
+        <code>{{contents}}</code>
+      </div>
+    </form>
+</div>
+
+</body>
+</html>

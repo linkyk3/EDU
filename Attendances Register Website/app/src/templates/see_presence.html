@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <title>See Presence</title>
+    <link rel = "stylesheet" href = "../static/navbar.css"/>
+    <link rel = "stylesheet" href = "../static/see_presence.css"/>
+</head> 
+
+<!--Menu Boven-->
+<nav>
+    <li><a href="{{url_for('homepage')}}">Home</a></li>
+    <li><a href="{{url_for('create_class')}}">Create Class</a></li>
+    <li><a href="{{url_for('register_presence')}}">Register Presence</a></li>
+    <li><a href="{{url_for('see_presence')}}">See Presence</a></li>
+    <li><a href="{{url_for('assign_course')}}">Assign Course</a></li>
+</nav>
+
+<div class="middleBlock">
+    <h1 style="text-align: center;">See Presence</h1>
+    <form method="POST" action="/see_presence">
+      <div class="container">
+        <label for="class_name"><b>Class Name</b></label>
+        <input type="text" id = "class_name" placeholder="Enter Class Name" name="class_name" required>
+                
+        <button type="submit" value="class" name = "see_presence_button">See Presence</button>
+
+      </div>
+    </form>
+</div>
+
+<div class="middleBlockTable">
+  <h1 style="text-align: center;">Presence Table</h1>
+  <h2 style="text-align: center;">Present Students: </h2>
+  <h2 style="text-align: center; color: darkred;">{{contents}}</h2>
+  <div class="container">
+    <table>
+      <tr>
+        {% for header in present_headings %}
+        <th>{{ header }}</th>
+        {% endfor %}
+      </tr>
+      {% for row in present_data %}
+      <tr>
+        {% for cell in row %}
+        <td>{{ cell }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+  <h2 style="text-align: center;">Not Present Students: </h2>
+  <div class="container">
+    <table>
+      <tr>
+        {% for header in non_present_headings %}
+        <th>{{ header }}</th>
+        {% endfor %}
+      </tr>
+      {% for row in non_present_data %}
+      <tr>
+        {% for cell in row %}
+        <td>{{ cell }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+</div>
+
+</body>
+</html>

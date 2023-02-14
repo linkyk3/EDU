@@ -1,0 +1,7 @@
+Running: xsim.dir/MIPSwUART_tb_behav/xsimk -simmode gui -wdb MIPSwUART_tb_behav.wdb -simrunnum 0 -socket 58931
+Design successfully loaded
+Design Loading Memory Usage: 35248 KB (Peak: 35248 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 125184 KB (Peak: 174516 KB)
+Simulation CPU Usage: 90 ms

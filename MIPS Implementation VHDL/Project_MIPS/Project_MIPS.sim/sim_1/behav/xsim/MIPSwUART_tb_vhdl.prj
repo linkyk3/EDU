@@ -1,0 +1,57 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Project_MIPS.srcs/sources_1/new/Adder.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/Control.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/InstructionMemory.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/ProgramCounter.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/ProgramCounter_Top.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/Registers.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MUXRegisters.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/Registers_Top.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/SignExtend.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/DataMemory.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MUXDataMemory.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/DataMemory_Top.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/ALUControl.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/JumpBlock.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MUXJumpReg.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MUXEnd.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/ALU.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MUXALU.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/ALU_Top.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MUXShiftLogic.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/ShiftLeft2.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/AddBranch.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/ORBranch.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MUXBranch.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/Branch_Top.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MIPS.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MUXWriteBack.vhd" \
+"../../../../../UART/project_1/project_1.srcs/sources_1/new/UART_ctrl.vhd" \
+"../../../../../UART/project_1/project_1.srcs/sources_1/new/RX_uart_nandl.vhd" \
+"../../../../../UART/project_1/project_1.srcs/sources_1/new/UART_Top.vhd" \
+"../../../../../UART/project_1/project_1.srcs/sources_1/new/TX_uart_nandl.vhd" \
+"../../../../Project_MIPS.srcs/sources_1/new/MIPSwUART.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/Control_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/ProgramCounter_Top_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/Registers_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/MUXRegisters_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/Registers_Top_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/SignExtend_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/DataMemory_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/DataMemory_Top_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/ALUControl_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/JumpBlock_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/MUXJumpReg_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/MUXEnd_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/Main_Top_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/ShiftLeft2_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/AddBranch_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/ORBranch_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/Branch_Top_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/MIPS_tb.vhd" \
+"../../../../../UART/project_1/project_1.srcs/sim_1/new/UART_Top_tb.vhd" \
+"../../../../Project_MIPS.srcs/sim_1/new/MIPSwUART_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+    <title>Assign Course</title>
+    <link rel = "stylesheet" href = "../static/navbar.css"/>
+    <link rel = "stylesheet" href = "../static/assign_course.css"/>
+</head> 
+
+<!--Menu Boven-->
+<nav>
+    <li><a href="{{url_for('homepage')}}">Home</a></li>
+    <li><a href="{{url_for('create_class')}}">Create Class</a></li>
+    <li><a href="{{url_for('register_presence')}}">Register Presence</a></li>
+    <li><a href="{{url_for('see_presence')}}">See Presence</a></li>
+    <li><a href="{{url_for('assign_course')}}">Assign Course</a></li>
+</nav>
+
+<div class="middleBlock">
+    <h1 style="text-align: center;">Assign Course</h1>
+    <form method="POST" action="/assign_course">
+      <div class="container">
+        <label for="username"><b>Username</b></label>
+        <input type="text" id = "username" placeholder="Enter Username" name="username" required>
+        
+        <label for="class_name" ><b>Course Name</b></label>
+        <input type="text" id = "class_name" placeholder="Enter Class Name" name="course_name" required>
+
+        <hr>
+
+        <button type="submit" value="pressed" name="assign_course_button">Assign Course</button>
+              
+        <!--contents = Course Assigned!-->
+        <code>{{contents}}</code>
+      </div>
+    </form>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="../static/login_style.css"/>
+</head> 
+
+<div class="middleBlock">
+  <h1 style="text-align: center;">Login</h1>
+  <form method="post" action="/login_attempt">
+    <div class="container">
+      <label for="username"><b>Username</b></label>
+      <input type="text" id = "username" placeholder="Enter Username" name="username" required>
+  
+      <label for="password"><b>Password</b></label>
+      <input type="password" id = "password" placeholder="Enter Password" name="password" required>
+
+      <hr>
+          
+      <button type="submit" value="Log In">Login</button>
+
+    </div>
+  </form>
+</div>
+
+</body>
+</html>

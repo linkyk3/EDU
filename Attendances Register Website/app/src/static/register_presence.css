@@ -1,0 +1,84 @@
+body {
+    background-color: white;
+    background-image: url('login_background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+  h1 {
+    color: rgb(77, 77, 77);
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 250%;
+  }
+  .middleBlock {
+    position: absolute; 
+    width: 450px; 
+    height: 450px; 
+    background: #EEF2F7; 
+    margin-top: 200px;
+    margin-left: 765px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+  }   
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  .container{
+    padding: 16px;
+  }
+  button {
+    font-family: monospace; 
+    background-color: rgb(77, 77, 77);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 25px;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
+  form {
+    margin-top: 10%;
+  }
+  label {
+    font-family: monospace; 
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+    opacity: 0.93;
+  }
+  input {
+    font-family: monospace; 
+    color: rgb(77, 77, 77);
+    background-color: #EEF2F7;
+    opacity: 0.8;
+    border-radius: 3px;
+  }
+  hr{
+    width:100%;
+    text-align:center;
+    color: lightcyan; 
+    margin-top: 20px;
+  }
+  code{
+    font-family: monospace; 
+    color: rgb(77, 77, 77);
+    font-size: 20px;
+    text-align: center;
+    margin-left: 105px;
+  }
