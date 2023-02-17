@@ -5,7 +5,7 @@ Projects from my Bachelor and Master Industrial Sciences at the VUB
 For the project of this course we had to design an application in the form of a website for registering attendences of different courses and subjects. The application includes a database, RESTful API and the site's frontend. SQLite is used for the database, Python for the backend and HTML/CSS for the frontend.
 
 ### Bachelorthesis - Roboball
-As assignment we had to design and build a spherical robot that could move by modulating its mass. A well known example is the [Sphero](https://sphero.com/blogs/news/what-is-sphero) that uses a small, wheele robot inside a shell that climbs up the walls and pushes them forward, causing the ball to roll. We were not allowed to copy this mechanism. These were the only design constrains that were given. We opted for an alternative method that used servo motors to control the rotation of the robot as well as the modulation of the mass, causing the robot to roll. In the report, all our design decisions and implementations are explained.
+As assignment we had to design and build a spherical robot that could move by modulating its mass. A well known example is the [Sphero](https://sphero.com/blogs/news/what-is-sphero) that uses a small, wheeled robot inside a shell that climbs up the walls and pushes them forward, causing the ball to roll. We were not allowed to copy this mechanism. These were the only design constrains that were given. We opted for an alternative method that used servo motors to control the rotation of the robot as well as the modulation of the mass, causing the robot to roll. In the report, all our design decisions and implementations are explained.
 
 ## 1st Master:
 ### Computerarchitectuur - MIPS with UART Implementation in VHDL
