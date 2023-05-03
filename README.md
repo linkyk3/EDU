@@ -13,3 +13,5 @@ In this project we implemented a basic MIPS processor in VHDL. The MIPS had to s
 
 ### Transmissietechnieken en Multimedia - MIVB/STIB Control App
 For the multimedia part of this course we had to develop an Android app. [Back in 2014](https://www.nieuwsblad.be/cnt/dmf20140905_01252657) there was a popular app that allowed users to signal if there was a control happening at specific stops of the Brussels public transport system. This app was shut down a few years later. For this project we remade this app from scratch. The app uses the GPS of your phone to track the nearby stations and indicated if there is a control happening at the station. A Google Firestore database is used to save the stations where a control is happening so that the real-time data is available for multiple users. 
+
+### Embedded DSP - Beamforming Simulation in Matlab and implementation in VHDL
